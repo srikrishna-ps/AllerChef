@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap");
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+    justify-content: center;
+}
+.top-bar {
+    background-color: #cedebd;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+}
+.top-bar button {
+    background-color: #cedebd;
+    color: #303c24;
+    font-weight:bold;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    padding: 10px;
+}
+.top-bar button:hover {
+    background-color: #435334;
+    color:#cedebd
+}
+  
+.header {
+    background-image: url("./Images/BG.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(26 41 3);
+}
+
+.txt {
+    text-align: center;
+    padding: 12px;
+    background-color: #dcd1b08f;
+}
+.txt h1 {
+    opacity: 2;
+    text-shadow: 0px 0px 15px #9eb384;
+    font-size: 55px;
+}
+.txt p {
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    background-color: #cedebd;
+    border: 1px solid #435334;
+    border-radius: 0.25rem;
+    padding: 1.25rem;
+    width: 311px;
+    height: 200px;
+    margin: 20px 10px 20px 10px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    vertical-align: top;
+}
+.button {
+    background-color: #9eb384;
+    color: #303c24;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #435334;
+    color: #cedebd;
+}

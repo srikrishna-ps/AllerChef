@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap");
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.top-bar {
+  background-color: #cedebd;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  align-items: center;
+}
+.top-bar button {
+  background-color: #cedebd;
+  color: #303c24;
+  font-weight:bold;
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+}
+.top-bar button:hover {
+  background-color: #435334;
+  color:#cedebd
+}
+
+.header {
+  background-image: url("./Images/BG.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 90%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(26 41 3);
+}
+
+.txt {
+  text-align: center;
+  padding: 12px;
+  background-color: #dcd1b08f;
+}
+.txt h1 {
+  opacity: 2;
+  text-shadow: 0px 0px 15px #9eb384;
+  font-size: 55px;
+}
+.txt p {
+  font-size: 18px;
+}
+
+.nutrition-info {
+  height: 200px;
+  background-color: #cedebd;
+  color: #303c24;
+  border-radius: 5px;
+  font-size: 1.15rem;
+  padding: 20px;
+  margin: 20px 0px;
+  text-align: left;
+}
+.nutrition-info .nutrition {
+  height: 200px;
+  width: 300px;
+  float: left;
+  border-radius: 5px;
+}
+.nutrition-info h2 {
+  padding: 10px;
+  margin: 10px 10px 10px 310px;
+}
+.nutrition-info p {
+  padding: 10px;
+  margin: 10px 10px 10px 310px;
+}
+.nutrition-info button {
+  background-color: #9eb384;
+  color: #303c24;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px 10px 20px;
+}
+.nutrition-info button:hover {
+  background-color: #435334;
+  color: #cedebd;
+}
+
+.health {
+  background-color: #cedebd;
+  color: #303c24;
+  border-radius: 5px;
+  font-size: 1.05rem;
+  padding: 20px;
+  margin: 20px 0px;
+  text-align: left;
+}
+.health .healthh {
+  filter: opacity(0.85);
+  height: 200px;
+  width: 300px;
+  float: left;
+  border-radius: 5px;
+}
+.health h2 {
+  padding: 10px;
+  margin: 10px 10px 10px 310px;
+}
+.health p {
+  padding: 10px;
+  margin: 10px 10px 10px 310px;
+}
+.health button {
+  background-color: #9eb384;
+  color: #303c24;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px 10px 20px;
+}
+.health button:hover {
+  background-color: #435334;
+  color: #cedebd;
+}
+
+.allergies {
+  background-color: #cedebd;
+  color: #303c24;
+  border-radius: 5px;
+  font-size: 1.15rem;
+  padding: 20px;
+  margin: 20px 0px;
+  text-align: left;
+}
+.allergies .allergy {
+  height: 200px;
+  width: 300px;
+  filter: opacity(0.85);
+  float: left;
+  border-radius: 5px;
+}
+.allergies h2 {
+  padding: 10px;
+  margin: 10px 10px 10px 310px;
+}
+.allergies p {
+  padding: 10px;
+  margin: 10px 10px 10px 310px;
+}
+.allergies button {
+  background-color: #9eb384;
+  color: #303c24;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px 10px 20px;
+}
+.allergies button:hover {
+  background-color: #435334;
+  color: #cedebd;
+}
+
+.pet {
+  background-color: #cedebd;
+  color: #303c24;
+  border-radius: 5px;
+  font-size: 1.05rem;
+  padding: 20px;
+  margin: 20px 0px;
+  text-align: left;
+}
+.pet .petcare {
+  height: 200px;
+  width: 300px;
+  filter: opacity(0.85);
+  float: left;
+  border-radius: 5px;
+}
+.pet h2 {
+  padding: 10px;
+  margin: 10px 10px 10px 310px;
+}
+.pet p {
+  padding: 10px;
+  margin: 10px 10px 10px 310px;
+}
+.pet button {
+  background-color: #9eb384;
+  color: #303c24;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px 10px 20px;
+}
+.pet button:hover {
+  background-color: #435334;
+  color: #cedebd;
+}
+
+.connect {
+  background-color: #cedebd;
+  color: #303c24;
+  border-radius: 5px;
+  font-size: 1.05rem;
+  padding: 20px;
+  margin: 20px 0px;
+  text-align: left;
+}
+.connect .dieticians {
+  height: 200px;
+  width: 300px;
+  filter: opacity(0.85);
+  float: left;
+  border-radius: 5px;
+}
+.connect h2 {
+  padding: 10px;
+  margin: 10px 10px 10px 310px;
+}
+.connect p {
+  padding: 10px;
+  margin: 10px 10px 10px 310px;
+}
+.connect button {
+  background-color: #9eb384;
+  color: #303c24;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px 10px 20px;
+}
+.connect button:hover {
+  background-color: #435334;
+  color: #cedebd;
+}
+.nutrition-info a{
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #cedebd;
+  border-radius: 5px;
+  color: #303c24;
+  text-align: center;
+  padding: 5px;
+}
+.social-icons {
+  margin-top: 5px;
+}
+.social-icons a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  padding: 0%;
+}

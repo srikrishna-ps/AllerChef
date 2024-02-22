@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap");
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body{
+    background: rgb(95,116,76);
+    background: linear-gradient(0deg, rgba(95,116,76,1) 0%, rgba(168,182,153,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.top-bar {
+    background-color: #cedebd;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top-bar button {
+    background-color: #cedebd;
+    color: #303c24;
+    font-weight:bold;
+    border-radius: 5px;
+    border: none;
+    margin: 20px;
+    padding: 10px;
+  }
+  .top-bar button:hover {
+    background-color: #435334;
+    color:#cedebd
+  }
+.logo{
+    height: 100%;
+    width: 50%;
+    background-image: url(logo.jfif);
+    float: right;
+}
+h2:hover{
+    text-align: center;
+    transform: scale(1.5,1.5);
+    text-shadow:0 0 10px #435334 ;
+    transition: 1.5s;
+}
+
+form{
+    box-sizing: content-box;
+    width: fit-content;
+    height: fit-content;
+    color: #303c24;
+    border:transparent;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    padding: 40px;
+    text-align: left;
+    margin: 50px 500px 10px ;
+    box-shadow: 0 0 100px #adadae;
+}
+form:hover{
+    box-shadow: 0 0 100px #CEDEBD;
+    transition: 1.0s;
+}
+#name,#email,#phoneNumber{
+    border-radius: 25px;
+    background-color: rgba(95,116,76,0.1);
+    width: 400px;
+    height: 40px;
+    border: solid #303c24 5px;
+    border-top: none;border-left: none;border-right: none;
+    letter-spacing: 1.5px;
+}
+#name:focus{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+    box-shadow: 0 0 30px #303c24;
+}
+#email:focus{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+    box-shadow: 0 0 30px #303c24;
+}
+#phoneNumber:focus{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+    box-shadow: 0 0 30px #303c24;
+}
+#submit:hover{
+    transform: scale(1.1,1.1);
+    background-image:linear-gradient(to right,#435334 ,hsl(120, 44%, 61%),#CEDEBD);
+    transition: 2.5s;
+}
+#submit{
+    border-radius: 15px;
+    color:#303c24;
+    width: 300px;
+    height: 25px;box-shadow: 0 0 10px #CEDEBD;
+    border: solid rgb(161, 154, 154);
+    background-color:#CEDEBD;
+    position: relative;
+    cursor: pointer;
+    top:10px;left: 50px;
+    height: 45px;
+}

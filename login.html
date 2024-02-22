@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="login.js"></script>
+
+</head>
+<body>
+    <div class="top-bar">
+        <a href="file:///C:/Users/sathw/OneDrive/Documents/VSC/AllerChef/AllerChef/index.html"><button>Go back</button></a>
+        <img src="./Images/Logo.png" alt="Logo" style="height: 75px" />
+        <button>AllerChef</button>
+    </div>
+
+    <form method="post" >
+        <h2 style="text-align: center;">ENTER DETAILS
+            <div class="logo"></div>
+        </h3>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br><br>
+            
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="text" id="phoneNumber" required><br><br>
+            
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" required><br><br>
+            
+            <input id="submit" type="submit" value="Submit" onclick="validateForm()">
+        </form>
+    </form>
+    
+</body>
+<div class="logo"></div>
+</html>

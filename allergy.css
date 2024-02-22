@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500&display=swap");
+
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150%;
+}
+
+.top-bar {
+    background-color: #cedebd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }
+.top-bar img {
+    position: static;
+}
+.top-bar button {
+    background-color: #cedebd;
+    color: #435334;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.top-bar button:hover {
+    background-color: #303c24;
+    color: #cedebd;
+}
+  
+.header {
+    color: #303c24;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #dcd1b08f;
+}
+.header h1 {
+    opacity: 2;
+    text-shadow: 0px 0px 15px #9eb384;
+    font-size: 55px;
+}
+.header p {
+    font-size: 18px;
+}
+
+.allergy-selection {
+    background-color: #dcd1b08f;
+    color: #303c24;
+    padding: 20px;
+    text-align: center;
+}
+.allergy-selection h2 {
+    opacity: 2;
+    text-shadow: 0px 0px 15px #9eb384;
+    margin: 0;
+}
+.allergy-selection select {
+    padding: 10px;
+    margin: 10px;
+}
+.allergy-selection button {
+    background-color: #435334;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.allergy-selection button:hover {
+    background-color: #303c24;
+    border-radius: 5px;
+}
+#allergy option{
+    color: #435334;
+    
+
+}
+option:checked, option:hover{
+    background-color: #9eb384;
+}
+
